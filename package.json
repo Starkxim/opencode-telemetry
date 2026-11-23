@@ -1,0 +1,35 @@
+{
+  "name": "opencode-telemetry",
+  "version": "1.0.0",
+  "description": "Live session status pill, L1/L2 Bento telemetry panels, cache hit rate breakdown, per-turn metrics, and OpenCode Go allowance monitor for OpenCode Desktop & CLI.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Starkxim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Starkxim/opencode-telemetry.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "telemetry",
+    "metrics",
+    "opencode-go",
+    "cache-hit-rate",
+    "bento"
+  ],
+  "exports": {
+    ".": "./index.ts",
+    "./server": "./index.ts",
+    "./tui": "./tui.tsx",
+    "./gui-experimental": "./gui-experimental.cjs"
+  },
+  "files": [
+    "index.ts",
+    "metrics.ts",
+    "tui.tsx",
+    "gui-experimental.cjs",
+    "README.md",
+    "LICENSE"
+  ]
+}
